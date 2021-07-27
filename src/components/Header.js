@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react'
-import CLOUDS from 'vanta/dist/vanta.clouds.min'
+import React, { useState, useEffect, useRef } from 'react';
+import CLOUDS from 'vanta/dist/vanta.clouds.min';
+import Typewriter from 'typewriter-effect';
 // import Container from 'react-bootstrap/Container';
 
 
@@ -33,8 +34,15 @@ function Header() {
         <section className="d-flex justify-content-center align-items-center" id="header" ref={myRef}>
             
 <div className="text-center header-text">
-<h1>Greetings Earthlings, I'm Marc!</h1>
-<h3>Web Developer & Freelancer</h3>
+<h1 className="name-style">Greetings Earthlings, <span className="name">I'm Marc!</span></h1>
+<Typewriter
+  options={{
+    strings: ['Web Developer', 'Freelancer'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
+
 </div>
             
             

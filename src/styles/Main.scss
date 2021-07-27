@@ -1,4 +1,5 @@
 @import "config";
+@import "utilities";
 
 * {
     margin: 0;
@@ -28,3 +29,15 @@
  .header-text {
      color: white;
  }
+
+.name-style {
+    font-family: polaris;
+}
+ .Typewriter {
+     font-size: 2rem;
+     font-family: exan;
+ }
+ .name,  .Typewriter__cursor{
+     color: $main-color;
+ }
+

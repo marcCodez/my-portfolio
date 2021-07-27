@@ -13,12 +13,12 @@ function Nav() {
     return (
         <>
         <div className="music">
-        <button onClick={sound.pause()}>Mute</button>
+        <button className="button" onClick={sound.pause()}>Mute</button>
         </div>
         <nav className="nav">
-            <button>About</button>
-            <button>Work</button>
-            <button>Contact</button>
+            <button className="button">About</button>
+            <button className="button mx-4">Work</button>
+            <button className="button">Contact</button>
         </nav>
         </>
     )
