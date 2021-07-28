@@ -30,6 +30,7 @@ function Header() {
         if (vantaEffect) vantaEffect.destroy()
       }
     }, [vantaEffect])
+    
     return (
         <section className="d-flex justify-content-center align-items-center" id="header" ref={myRef}>
             

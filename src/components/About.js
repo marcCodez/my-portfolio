@@ -1,10 +1,13 @@
 import React from 'react'
+import ParticleBackground from './ParticleBackground';
 
 function About() {
     return (
-        <div>
-            <h1>About Me</h1>
-        </div>
+        <section id="about">
+            
+            <ParticleBackground/>
+            {/* <h1>About Me</h1> */}
+        </section>
     )
 }
 
