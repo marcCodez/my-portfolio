@@ -1,0 +1,9 @@
+@font-face {
+    src: url(./fonts/Polaris.otf) format('otf');
+    font-family: 'polaris';
+}
+
+@font-face {
+    src: url(./fonts/Exan-Regular.ttf) format('ttf');
+    font-family: 'exan';
+}
