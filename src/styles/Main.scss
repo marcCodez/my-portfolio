@@ -44,8 +44,16 @@
  .tsparticles-canvas-el {
      background-color: black;
      height: 100vh !important;
+     
  }
 
  #about {
      border-top: solid 5px $main-color;
+
+
+     .about-desc {
+         position: relative;
+         bottom: 50%;
+         left: 25%;
+     }
  }
