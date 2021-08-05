@@ -41,19 +41,28 @@
      color: $main-color;
  }
 
- .tsparticles-canvas-el {
-     background-color: black;
-     height: 100vh !important;
-     
- }
+
 
  #about {
      border-top: solid 5px $main-color;
 
 
-     .about-desc {
-         position: relative;
-         bottom: 50%;
-         left: 25%;
+     #tsparticles {
+        position: absolute;
+        z-index:-1;
+        height: 100%;
+        width: 100%;
+
+        .tsparticles-canvas-el {
+            background-color: black;
+            
+        }
      }
+    
+
+
+     .about-desc {
+      
  }
+ }
+ 

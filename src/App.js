@@ -1,8 +1,9 @@
 import './styles/Main.scss';
 import Header from './components/Header'
-import Stones from './components/Stones'
 import About from './components/About'
 import Nav from './components/Nav'
+import Works from './components/Works'
+import Contact from './components/Contact'
 
 
 
@@ -12,7 +13,8 @@ function App() {
       <Header/>
       <Nav/>
       <About/>
-      <Stones/>
+    <Works/>
+    <Contact/>
     </>
   );
 }

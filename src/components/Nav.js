@@ -31,7 +31,8 @@ function Nav() {
     return (
         <>
         <div className="music">
- <button className="button" onClick={playEventHandler}>{sound.playing() ? 'Mute': 'Play Music'}</button> 
+ <button className="button" onClick={playEventHandler}>Play</button> 
+ {/* {sound.playing() ? 'Mute': 'Play Music'} */}
 
         
         </div>
