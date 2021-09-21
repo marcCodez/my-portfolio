@@ -38,7 +38,7 @@ function Header() {
 <h1 className="name-style">Greetings Earthlings, <span className="name">I'm Marc!</span></h1>
 <Typewriter
   options={{
-    strings: ['Web Developer', 'Freelancer'],
+    strings: ['The Last Codebender', 'Software Developer', 'Freelance Web Developer', 'Lakers fan', ],
     autoStart: true,
     loop: true,
   }}

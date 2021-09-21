@@ -2,7 +2,7 @@ import './styles/Main.scss';
 import Header from './components/Header'
 import About from './components/About'
 import Nav from './components/Nav'
-import Works from './components/Works'
+import Projects from './components/Projects'
 import Contact from './components/Contact'
 
 
@@ -13,7 +13,7 @@ function App() {
       <Header/>
       <Nav/>
       <About/>
-    <Works/>
+    <Projects/>
     <Contact/>
     </>
   );

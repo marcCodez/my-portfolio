@@ -43,8 +43,15 @@
 
 
 
+
  #about {
      border-top: solid 5px $main-color;
+     font-family: polaris;
+
+    .about-title {
+        font-size: 7rem;
+        color: $main-color;
+    }
 
 
      #tsparticles {
@@ -64,5 +71,21 @@
      .about-desc {
       
  }
+ }
+
+ #projects {
+     background-color: $main-color;
+     
+     .projects-title {
+        font-family: polaris;
+         font-size: 7rem;
+     }
+ }
+
+ #contact {
+     .contact-title {
+        font-family: polaris;
+        font-size: 7rem;
+     }
  }
  
